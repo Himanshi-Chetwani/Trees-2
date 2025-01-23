@@ -21,7 +21,7 @@
 // Your code here along with comments explaining your approach
 //We multiple with 10 and add node val untl root node is reached then we do same for right of root and we return sum
 
-class Solution {
+class SumRootToLeaf {
     int sum = 0;
     public int sumNumbers(TreeNode root) {
         sumNumbersHelper(root, 0);
